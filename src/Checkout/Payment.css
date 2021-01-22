@@ -1,0 +1,110 @@
+.payment{
+    background-color: white ;
+    margin: 20px;
+}
+
+.payment__address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.payment__address > input {
+    height: 30px;
+    width: 500px;
+    margin-bottom: 10px;
+    background-color: white;
+    box-shadow:inset 0 0 2px 2px lightgray;
+    outline-width: 0;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+
+.payment__address > input:hover{
+    border: 1px solid red;
+    box-shadow: 0 0 2px 2px orange;
+    background: #fff;
+}
+
+.payment__address > h6{
+    font-weight: bold;
+}
+
+.payment__container > h1{
+    text-align:center;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: rgb(234,237, 237);
+    border-bottom: 1px solid lightgray;
+}
+
+.payment__container>h1 a{
+    text-decoration: none;
+    color: rgb(187, 69, 187);
+}
+
+.payment__section{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 0px 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.payment__title{
+    flex: 0.2;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.payment__address , .payment__items , .payment__details{
+    flex: 0.8;
+}
+
+.payment__details > form{
+    max-width: 600px;
+}
+
+.payment__priceContainer > h6{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.payment__button{
+    display: flex;
+    justify-content: center;
+    background-color: #f0c14b;
+        border: 1px solid;
+        margin-top: 20px;
+        border-color: #a88734 #9c7e31 #846a29;
+        width:50% ;
+}
+
+.payment__button:hover{
+    box-shadow:inset 0px 0px 3px 3px orange;
+    color: orangered;
+}
+
+@media screen and (max-width:800px){
+    .payment__section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 20px;
+        margin: 0px 20px;
+        border-bottom: 1px solid lightgray;
+    }
+
+    .payment__address > input {
+        height: 30px;
+        width: 300px;
+        margin-bottom: 10px;
+        background-color: white;
+        box-shadow:inset 0 0 2px 2px lightgray;
+        outline-width: 0;
+        border-radius: 3px;
+        border: 1px solid gray;
+    }
+}

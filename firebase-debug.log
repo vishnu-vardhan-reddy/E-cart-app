@@ -1,0 +1,60 @@
+[debug] [2020-09-14T07:38:53.244Z] ----------------------------------------------------------------------
+[debug] [2020-09-14T07:38:53.248Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Vishnu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-09-14T07:38:53.249Z] CLI Version:   8.10.0
+[debug] [2020-09-14T07:38:53.249Z] Platform:      win32
+[debug] [2020-09-14T07:38:53.249Z] Node Version:  v12.18.2
+[debug] [2020-09-14T07:38:53.251Z] Time:          Mon Sep 14 2020 13:08:53 GMT+0530 (India Standard Time)
+[debug] [2020-09-14T07:38:53.252Z] ----------------------------------------------------------------------
+[debug] [2020-09-14T07:38:53.252Z] 
+[debug] [2020-09-14T07:38:53.262Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-14T07:38:53.263Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\clone\amazon
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using fir-bebd8. 
+[debug] [2020-09-14T07:38:59.008Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-09-14T07:38:59.008Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-09-14T07:39:20.095Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2020-09-14T07:39:20.775Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at Object.<anonymous> (C:\Users\Vishnu\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:23:32)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\Vishnu\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\hosting\github.js:20:16)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\Vishnu\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\hosting\index.js:7:22)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+[error] 
+[error] Error: Failed to get Firebase project fir-bebd8. Please make sure the project exists and your account has permission to access it.

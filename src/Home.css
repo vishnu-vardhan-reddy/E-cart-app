@@ -1,0 +1,100 @@
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.home__banners{
+    margin-bottom: -250px;
+
+}
+
+.home__row{
+    display: flex !important;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.home__carousels{
+    margin: 0px 20px;
+}
+
+.home__todaysDeals{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    padding:5px 0px 0px 0px ;
+    width: 100%;
+    height: 310px;
+}
+
+.home__todaysDeals > h2{
+    font-size: 20px;
+    padding:5px 20px 10px 20px;
+    font-weight: 700;
+}
+
+.home__games{
+    margin-top: 10px;
+    
+    background-color: white;
+    padding:5px 0px 0px 0px ;
+    width: 100%;
+    height: 310px;
+}
+
+.home__games > h2{
+    font-size: 20px;
+    padding:5px 20px 10px 20px;
+    font-weight: 700;
+}
+
+
+.home__middleBanner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: auto;
+    height: 310px;
+    margin-bottom:-20px ;
+}
+
+@media screen and (max-width:800px){
+    .home__row{
+        display: flex !important;
+        flex-wrap: wrap !important;
+        z-index: 1;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .home__middleBanner{
+        display: flex;
+        object-fit: contain;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        height: 310px;
+        overflow: hidden;
+    }
+
+    .home__games > h2{
+        font-size: 13px;
+        padding:5px 20px 10px 20px;
+        font-weight: 700;
+    }
+
+    .home__todaysDeals > h2{
+        font-size: 15px;
+        padding:5px 20px 10px 20px;
+        font-weight: 700;
+    }
+
+    .home__banners{
+        margin-bottom: -390px;
+    
+    }
+}

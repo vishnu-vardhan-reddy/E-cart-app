@@ -1,0 +1,48 @@
+.checkout {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    height: max-content;
+}
+
+.checkout__title{
+    margin: 10px 0px;
+    border-bottom: 1px solid lightgray;
+}
+
+.checkout__ad {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.button__div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.continueShopping {
+    background-color: #f0c14b;
+    border: 1px solid;
+    color: orangered;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    width:40% ;
+}
+
+.continueShopping:hover{
+    box-shadow: 0px 0px 3px 3px orange;
+}
+
+@media screen and (max-width:780px){
+    .checkout {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        margin: 20px;
+        background-color: white;
+        height: max-content;
+    }
+    
+}

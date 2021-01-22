@@ -1,0 +1,79 @@
+
+.hero-slide {
+    height: 500px !important;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+  }
+  .slide-image {
+    object-fit: scale-down;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 7%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-slider .content {
+    position: relative;
+    z-index: 1;
+  }
+
+  .image7{
+    width: 100%;
+    mask-image: linear-gradient(to bottom,rgb(211,211,211) white);
+  }
+  .image1{
+    width: 100%;
+    mask-image: linear-gradient(to bottom,rgb(0, 29, 57,1),rgb(0, 29, 57,0));
+  }
+
+  .image2{
+    width: 100%;
+    mask-image: linear-gradient(to bottom,rgb(238, 63, 42,1),rgb(238, 63, 42,0));
+  }
+  .image3{
+    width: 100%;
+    mask-image: linear-gradient(to bottom,rgb(244, 244, 246,1),rgb(244,244,246,0));
+  }
+  .image4{
+    width: 100%;
+    mask-image: linear-gradient(to bottom,rgb(4, 110, 126,1),rgb(4, 110, 126,0));
+  }
+  .image5{
+    width: 100%;
+    mask-image: linear-gradient(to bottom rgb(158, 162, 165,1),rgb(158, 162, 165,0));
+  }
+  .image6{
+    width: 100%;
+    mask-image: linear-gradient(to bottom,rgb(253, 238, 111,1),rgb(253, 238, 111,0));
+  }
+
+  @media screen and (max-width:780px){
+    .hero-slide {
+      height: 500px !important;
+      display: flex;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .slide-image {
+      object-fit: scale-down;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: -63%;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
