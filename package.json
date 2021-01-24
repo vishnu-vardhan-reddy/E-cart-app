@@ -1,5 +1,6 @@
 {
   "name": "amazon",
+  "author": "vishnu vardhan reddy",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
